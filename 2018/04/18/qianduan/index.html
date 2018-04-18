@@ -12,18 +12,18 @@
     
 
     
-    <meta name="description" content="学习前端基础知识：1、HTML/HTML5：HTML 指超文本标签语言。2、CSS/CSS3：指层叠样式表（Cascading Style Sheets）。3、Javascript：脚本语言。  在这基础之上深造：1、Jquery：兼容几乎所有浏览器的前端脚本库。2、UI库：jQuery WeUI、Ant Design、layui、Flat UI，列举几个典型的，还有在后续文章中分享给大家。3、字">
+    <meta name="description" content="学习前端基础知识：1、HTML/HTML5：HTML 指超文本标签语言。2、CSS/CSS3：指层叠样式表（Cascading Style Sheets）。3、Javascript：脚本语言。  在这基础之上深造：1、Jquery：兼容几乎所有浏览器的前端脚本库。2、requireJS: 是一个非常小巧的JavaScript模块载入框架。3、SeaJS: 是一个模块加载器,模块加载器需要实现两个基">
 <meta name="keywords" content="文章">
 <meta property="og:type" content="article">
 <meta property="og:title" content="网站建设所需要的前端知识 - 多年积累干货分享">
 <meta property="og:url" content="/2018/04/18/qianduan/index.html">
 <meta property="og:site_name" content="Web School">
-<meta property="og:description" content="学习前端基础知识：1、HTML/HTML5：HTML 指超文本标签语言。2、CSS/CSS3：指层叠样式表（Cascading Style Sheets）。3、Javascript：脚本语言。  在这基础之上深造：1、Jquery：兼容几乎所有浏览器的前端脚本库。2、UI库：jQuery WeUI、Ant Design、layui、Flat UI，列举几个典型的，还有在后续文章中分享给大家。3、字">
+<meta property="og:description" content="学习前端基础知识：1、HTML/HTML5：HTML 指超文本标签语言。2、CSS/CSS3：指层叠样式表（Cascading Style Sheets）。3、Javascript：脚本语言。  在这基础之上深造：1、Jquery：兼容几乎所有浏览器的前端脚本库。2、requireJS: 是一个非常小巧的JavaScript模块载入框架。3、SeaJS: 是一个模块加载器,模块加载器需要实现两个基">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-04-18T03:20:35.213Z">
+<meta property="og:updated_time" content="2018-04-18T12:35:27.864Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="网站建设所需要的前端知识 - 多年积累干货分享">
-<meta name="twitter:description" content="学习前端基础知识：1、HTML/HTML5：HTML 指超文本标签语言。2、CSS/CSS3：指层叠样式表（Cascading Style Sheets）。3、Javascript：脚本语言。  在这基础之上深造：1、Jquery：兼容几乎所有浏览器的前端脚本库。2、UI库：jQuery WeUI、Ant Design、layui、Flat UI，列举几个典型的，还有在后续文章中分享给大家。3、字">
+<meta name="twitter:description" content="学习前端基础知识：1、HTML/HTML5：HTML 指超文本标签语言。2、CSS/CSS3：指层叠样式表（Cascading Style Sheets）。3、Javascript：脚本语言。  在这基础之上深造：1、Jquery：兼容几乎所有浏览器的前端脚本库。2、requireJS: 是一个非常小巧的JavaScript模块载入框架。3、SeaJS: 是一个模块加载器,模块加载器需要实现两个基">
 
     
     <link rel="alternative" href="/atom.xml" title="Web School" type="application/atom+xml">
@@ -98,6 +98,7 @@
 		position: relative;
 		top: -10px;
 		background: #2ca6cb;
+		width: 100%;
 	}
 @media (max-width: 1024px){
 	.header-gg{
@@ -149,9 +150,11 @@
 		
 		<p>学习前端基础知识：<br>1、HTML/HTML5：HTML 指超文本标签语言。<br>2、CSS/CSS3：指层叠样式表（Cascading Style Sheets）。<br>3、Javascript：脚本语言。</p>
 <hr>
-<p>在这基础之上深造：<br>1、Jquery：兼容几乎所有浏览器的前端脚本库。<br>2、UI库：<a href="http://jqweui.com/" target="_blank" rel="external">jQuery WeUI</a>、<a href="https://ant.design/docs/react/getting-started-cn" target="_blank" rel="external">Ant Design</a>、<a href="http://www.layui.com/" target="_blank" rel="external">layui</a>、<a href="https://github.com/designmodo/Flat-UI" target="_blank" rel="external">Flat UI</a>，列举几个典型的，还有在后续文章中分享给大家。<br>3、字体图标：<a href="http://www.iconfont.cn/" target="_blank" rel="external">阿里巴巴矢量图标库</a>、<a href="http://www.fontawesome.com.cn/" target="_blank" rel="external">Font Awesome</a>，还有其他字体图标，不一一列举了。<br>4、动画：<a href="https://daneden.github.io/animate.css/" target="_blank" rel="external">animate.css</a>、<a href="http://animejs.com/documentation/#CSStransforms" target="_blank" rel="external">animejs</a>，多年收集的动画库有几十个，后面文章分享给大家。</p>
+<p>在这基础之上深造：<br>1、Jquery：兼容几乎所有浏览器的前端脚本库。<br>2、requireJS: 是一个非常小巧的JavaScript模块载入框架。<br>3、SeaJS: 是一个模块加载器,模块加载器需要实现两个基本功能: 实现模块定义规范,这是模块系统的基础。（建议用requireJS）<br>4、UI库：<a href="http://jqweui.com/" target="_blank" rel="external">jQuery WeUI</a>、<a href="https://ant.design/docs/react/getting-started-cn" target="_blank" rel="external">Ant Design</a>、<a href="http://www.layui.com/" target="_blank" rel="external">layui</a>、<a href="https://github.com/designmodo/Flat-UI" target="_blank" rel="external">Flat UI</a>，列举几个典型的，还有在后续文章中分享给大家。<br>5、字体图标：<a href="http://www.iconfont.cn/" target="_blank" rel="external">阿里巴巴矢量图标库</a>、<a href="http://www.fontawesome.com.cn/" target="_blank" rel="external">Font Awesome</a>，还有其他字体图标，不一一列举了。<br>6、动画：<a href="https://daneden.github.io/animate.css/" target="_blank" rel="external">animate.css</a>、<a href="http://animejs.com/documentation/#CSStransforms" target="_blank" rel="external">animejs</a>，多年收集的动画库有几十个，后面文章分享给大家。</p>
 <hr>
-<p>如果前端在往更强大的前端发展，基于MVVM驱动架构，构建单页面应用，多用于移动端开发，可选择以下一种：<br>1、Vuejs：（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架，只关注视图层， 采用自底向上增量开发的设计。。<br>2、ReactJS： 是一个用于构建用户界面的 JAVASCRIPT 库，起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。。<br>3、AngularJS：可以构建一个单一页面应用程序（SPAs：Single Page Applications）。</p>
+<p>前端构建：<br>1、ES2015：是JavaScript语言的下一代标准。<br>2、Webpack：是什么webpack是一款模块加载器兼打包工具,它能把各种资源,例如JS(含JSX)、coffee、样式(含less/sass)、图片等都作为模块来使用和处理。<br>3、gulp：是一个自动化构建工具,开发者可以使用它在项目开发过程中自动执行常见任务。（建议用Webpack）</p>
+<hr>
+<p>如果前端在往更强大的前端发展，基于MVVM驱动架构，构建单页面应用，多用于移动端开发，可选择以下一种：<br>1、Vuejs：（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架，只关注视图层， 采用自底向上增量开发的设计。<br>2、ReactJS： 是一个用于构建用户界面的 JAVASCRIPT 库，起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于2013年5月开源。<br>3、AngularJS：可以构建一个单一页面应用程序（SPAs：Single Page Applications）。</p>
 <hr>
 <p><em>先简单了解前端知识，我会在后面文章中一一介绍。</em></p>
   
@@ -191,10 +194,10 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2018/04/18/html/" title="HTML - 入门必备">
+ <a href="/2018/04/18/html/" title="HTML5 兼容问题及处理方法">
   <strong>上一篇：</strong><br/>
   <span>
-  HTML - 入门必备</span>
+  HTML5 兼容问题及处理方法</span>
 </a>
 </div>
 
