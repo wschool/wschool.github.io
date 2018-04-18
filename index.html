@@ -38,7 +38,7 @@
   <body>
     <header>
       
-<div>
+<div style="z-index: 99;">
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.png" alt="Web School" title="Web School"/></a>
@@ -75,6 +75,40 @@
 			</nav>
 </div>
 <script src="/colindcli/header.js"></script>
+<style>
+.header-gg{
+	text-align: right !important;
+    overflow: hidden !important;
+    position: absolute !important;
+	top: 28px !important;
+	z-index: 999;
+}
+.header-gg ins{
+	background: #ccc;
+}
+.animated{
+		position: relative;
+    	top: 80px;
+	}
+@media (max-width: 1024px){
+	.header-gg{
+		position: relative !important;
+		height: 99px;
+		text-align: center !important;
+		top: 5px !important;
+		z-index: 0;
+	}
+	.animated {
+		position: initial;
+		top: 0px;
+	}
+}
+@media only screen and (min-width: 1024px){
+	header>div{
+		height: 140px;
+	}
+}
+</style>
     </header>
     <div id="container">
       <div id="main">

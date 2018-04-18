@@ -1,4 +1,4 @@
-document.writeln("<div style=\'text-align:center;overflow: hidden;\'>");
+document.writeln("<div class='header-gg' style=\'text-align:right;overflow: hidden;\'>");
 document.writeln("<ins class=\'adsbygoogle\'");
 document.writeln("     style=\'display:inline-block;width:728px;height:90px\'");
 document.writeln("     data-ad-client=\'ca-pub-2222513431618339\'");
